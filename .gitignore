@@ -23,7 +23,7 @@
 hs_err_pid*
 replay_pid*
 
-bazel-*/
+**/node_modules/*
 bazel-Bazel_POC
 bazel-bin
 bazel-out
