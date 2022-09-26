@@ -2,7 +2,9 @@ load("@build_bazel_rules_nodejs//:index.bzl", "nodejs_binary")
 
 nodejs_binary(
     name = "node-app",
-    data = ["server.js",],
-    entry_point = "server.js",
+    entry_point = ":server.js",
+    data = [
+    "@npm//express"
+    ]
 
 )
