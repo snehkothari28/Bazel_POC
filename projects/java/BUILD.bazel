@@ -11,4 +11,5 @@ java_binary(
     '@maven//:org_springframework_spring_context',
     
   ],
+  visibility =["//visibility:public"],
 )

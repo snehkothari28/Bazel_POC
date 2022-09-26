@@ -5,6 +5,7 @@ nodejs_binary(
     entry_point = ":server.js",
     data = [
     "@npm//express"
-    ]
+    ],
+    visibility =["//visibility:public"],
 
 )
