@@ -28,3 +28,7 @@ bazel-Bazel_POC
 bazel-bin
 bazel-out
 bazel-testlogs
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/modules.xml
+.idea/Bazel_POC.iml
